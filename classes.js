@@ -1,24 +1,25 @@
-cuentaTotal  = 0
+let cuentaTotal  = 0
 class contador{
     constructor(nombre){
         this.nombre = nombre;
         console.log("Nuevo objeto creado");
-        cuenta = 0;
-        cuentaGlobal = cuentaTotal;
+        this.cuenta = 0;
     }
-    static viariableEstatica = 4;
     getResponsable(){
-        console.log(nombre)
+        console.log(this.nombre)
     };
     getCuentaIndividual(){
-        console.log(cuenta)
+        console.log(this.cuenta)
     };
     getCuentaGlobal(){
         console.log(cuentaTotal)
     };
-    contar(){
-        cuenta++;
-        cuentaTotal++;
+    contar(veces){
+        for (let i = 0; i <veces; i++){
+            this.cuenta++;
+            cuentaTotal++;
+        }
+        
     };
 }
 
@@ -27,3 +28,10 @@ let Persona2 = new contador("Carlos");
 let Persona3 = new contador("Carlos");
 let Persona4 = new contador("Carlos");
 
+Persona1.contar(3);
+Persona2.contar(2);
+Persona3.contar(1);
+Persona4.contar(4);
+
+Persona1.getCuentaIndividual();
+Persona2.getCuentaGlobal();
