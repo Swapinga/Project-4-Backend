@@ -9,10 +9,10 @@ class contador{
         console.log(this.nombre)
     };
     getCuentaIndividual(){
-        console.log(this.cuenta)
+        console.log(this.nombre + " cuenta individual: " + this.cuenta)
     };
     getCuentaGlobal(){
-        console.log(cuentaTotal)
+        console.log(this.nombre + " cuenta global: " + cuentaTotal)
     };
     contar(veces){
         for (let i = 0; i <veces; i++){
@@ -22,16 +22,25 @@ class contador{
         
     };
 }
-
+function RandomNum (){
+    return Math.floor(Math.random() * 10) + 1;
+};
 let Persona1 = new contador("Carlos");
-let Persona2 = new contador("Carlos");
-let Persona3 = new contador("Carlos");
-let Persona4 = new contador("Carlos");
+let Persona2 = new contador("Juan");
+let Persona3 = new contador("Agustin");
+let Persona4 = new contador("Lily");
 
-Persona1.contar(3);
-Persona2.contar(2);
-Persona3.contar(1);
-Persona4.contar(4);
+Persona1.contar(RandomNum());
+Persona2.contar(RandomNum());
+Persona3.contar(RandomNum());
+Persona4.contar(RandomNum());
 
 Persona1.getCuentaIndividual();
+Persona2.getCuentaIndividual();
+Persona3.getCuentaIndividual();
+Persona4.getCuentaIndividual();
+
+Persona1.getCuentaGlobal();
 Persona2.getCuentaGlobal();
+Persona3.getCuentaGlobal();
+Persona4.getCuentaGlobal();
