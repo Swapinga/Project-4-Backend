@@ -1,0 +1,14 @@
+{
+  "name": "desafio-manejodearchivos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Desafio-ManejoDeArchivos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "swapinga",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
