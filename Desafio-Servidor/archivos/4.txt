@@ -1,0 +1,1 @@
+{"title":"producto 4","description":"Este es el producto numero 4","price":200,"thumbnail":"Sin imagen","code":"76jph","stock":25,"path":"./archivos/4","id":4}

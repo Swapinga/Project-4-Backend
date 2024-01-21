@@ -1,0 +1,1 @@
+{"title":"producto 8","description":"Este es el producto numero 8","price":200,"thumbnail":"Sin imagen","code":"4n4lz","stock":25,"path":"./archivos/8","id":8}

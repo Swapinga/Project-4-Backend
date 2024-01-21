@@ -1,0 +1,1 @@
+{"title":"producto 7","description":"Este es el producto numero 7","price":200,"thumbnail":"Sin imagen","code":"ml066","stock":25,"path":"./archivos/7","id":7}
