@@ -1,1 +1,0 @@
-{"title":"producto 1","description":"Este es el producto numero 1","price":200,"thumbnail":"Sin imagen","code":"bhx5i","stock":25,"path":"./archivos/1","id":1}

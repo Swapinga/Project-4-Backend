@@ -1,1 +1,0 @@
-{"title":"producto 2","description":"Este es el producto numero 2","price":200,"thumbnail":"Sin imagen","code":"ud4cw","stock":25,"path":"./archivos/2","id":2}

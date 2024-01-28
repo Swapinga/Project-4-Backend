@@ -1,1 +1,0 @@
-{"title":"producto 6","description":"Este es el producto numero 6","price":200,"thumbnail":"Sin imagen","code":"dbe3a","stock":25,"path":"./archivos/6","id":6}

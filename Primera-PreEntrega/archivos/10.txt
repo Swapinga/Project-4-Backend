@@ -1,1 +1,0 @@
-{"title":"producto 10","description":"Este es el producto numero 10","price":200,"thumbnail":"Sin imagen","code":"jdkst","stock":25,"path":"./archivos/10","id":10}

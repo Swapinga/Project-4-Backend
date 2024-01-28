@@ -1,1 +1,0 @@
-{"title":"producto 5","description":"Este es el producto numero 5","price":200,"thumbnail":"Sin imagen","code":"siis3","stock":25,"path":"./archivos/5","id":5}

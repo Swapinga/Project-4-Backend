@@ -1,1 +1,0 @@
-{"title":"producto 3","description":"Este es el producto numero 3","price":200,"thumbnail":"Sin imagen","code":"yhs59","stock":25,"path":"./archivos/3","id":3}

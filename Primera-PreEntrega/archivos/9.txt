@@ -1,1 +1,0 @@
-{"title":"producto 9","description":"Este es el producto numero 9","price":200,"thumbnail":"Sin imagen","code":"88187","stock":25,"path":"./archivos/9","id":9}
